@@ -1,87 +1,122 @@
 body{
-
+    background-color: rgb(172, 79, 4);
+    align-items: center;
 }
 .heading_text{
+    text-align: center;
+}
+.row{
+    flex-direction:row;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+}
+.firstrow{
+    justify-content: space-evenly;
+}
+.secondrow{
+    justify-content: space-evenly;
+}
+.thirdrow{
+    justify-content: space-evenly;
+}
+.container{
+    border: 3px dotted rgb(255, 255, 255);
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    display: flex;
+}
+.cn1{
 
 }
-.row1{
+.cn2{
 
 }
-.row2{
+.cn3{
 
 }
-.row3{
+.cn4{
 
 }
-.container1{
+.cn5{
 
 }
-.container2{
+.cn6{
 
 }
-.container3{
+.card{
+    background-color: darkcyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+}
+.cd1{
 
 }
-.container4{
-
-}
-.container5{
-
-}
-.container6{
-
-}
-.card11{
-
-}
-.card12{
+.cd2{
     
 }
-.card13{
+.cd3{
     
 }
-.card21{
+
+.cn1 .cd1{
 
 }
-.card22{
+.cn1 .cd2{
     
 }
-.card23{
+.cn1 .cd3{
     
 }
-.card31{
+.cn2 .cd1{
 
 }
-.card32{
+.cn2 .cd2{
     
 }
-.card33{
+.cn2 .cd3{
     
 }
-.card41{
+.cn3 .cd1{
 
 }
-.card42{
+.cn3 .cd2{
     
 }
-.card43{
+.cn3 .cd3{
     
 }
-.card51{
+.cn4 .cd1{
 
 }
-.card52{
+.cn4 .cd2{
     
 }
-.card53{
+.cn4 .cd3{
     
 }
-.card61{
+.cn5 .cd1{
 
 }
-.card62{
+.cn5 .cd2{
     
 }
-.card63{
+.cn5 .cd3{
+    
+}
+.cn6 .cd1{
+
+}
+.cn6 .cd2{
+    
+}
+.cn6 .cd3{
     
 }
