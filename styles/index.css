@@ -1,9 +1,11 @@
 body{
     background-color: rgb(172, 79, 4);   
 }
-
-.heading_text{
-    text-align: center;
+.part1{
+    background-color: saddlebrown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .row{
     display: flex;
@@ -21,7 +23,7 @@ body{
 .third__row{
     justify-content: space-evenly;
 }
-.container{
+.part1 > .row > .container{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
     width: 40%;
@@ -86,4 +88,40 @@ body{
 .cn6 > .card__middle{
     width:150px;
     height: 50px;
+}
+
+.part2{
+    display: flex;
+    max-width: 75%;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin: 10px;
+}
+.part2 > .container{
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30%;
+    min-height: 150px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap;
+    gap:5px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: gray;
+}
+.cn7{
+    flex-direction: row-reverse;
+}
+.cn11{
+    flex-direction: row-reverse;
+}
+.cn9{
+    
 }
