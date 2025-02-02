@@ -1,122 +1,89 @@
 body{
-    background-color: rgb(172, 79, 4);
-    align-items: center;
+    background-color: rgb(172, 79, 4);   
 }
+
 .heading_text{
     text-align: center;
 }
 .row{
-    flex-direction:row;
-    align-items: center;
-    width: 80%;
-    padding: 10px;
     display: flex;
+    flex-direction:row;
+    width: 80%;
+    padding: 4px;
 }
-.firstrow{
+.first__row{
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+.second__row{
     justify-content: space-evenly;
 }
-.secondrow{
-    justify-content: space-evenly;
-}
-.thirdrow{
+.third__row{
     justify-content: space-evenly;
 }
 .container{
-    border: 3px dotted rgb(255, 255, 255);
-    position: relative;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
     width: 40%;
+    min-height: 150px;
     padding: 10px;
+    background-color: yellow;
     display: flex;
 }
 .cn1{
-
+    align-items:flex-end;
 }
 .cn2{
-
+    justify-content: center;
+    align-items: center;
 }
 .cn3{
-
+    align-items: flex-end;
+    justify-content: right;
 }
 .cn4{
-
+    display: flex;
+    justify-content: space-between;
 }
 .cn5{
-
+    align-items: center;
+    justify-content: space-between;
 }
 .cn6{
-
+    justify-content: space-around;
+    align-items: center;
 }
 .card{
     background-color: darkcyan;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 25%;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    text-align: center;
 }
-.cd1{
-
-}
-.cd2{
-    
-}
-.cd3{
-    
+.cn2 > .card{
+    height: 150px;
+    width: 50px;
 }
 
-.cn1 .cd1{
+.cn4 > .card__middle{
+    align-self: center;
+}
+.cn4 > .card__right{
+    align-self: flex-end;
+}
+.cn5 > .card__left{
+    height: 150px;
+    width: 50px;
 
 }
-.cn1 .cd2{
-    
+.cn5 > .card__right{
+    height: 150px;
+    width: 50px;
 }
-.cn1 .cd3{
-    
-}
-.cn2 .cd1{
-
-}
-.cn2 .cd2{
-    
-}
-.cn2 .cd3{
-    
-}
-.cn3 .cd1{
-
-}
-.cn3 .cd2{
-    
-}
-.cn3 .cd3{
-    
-}
-.cn4 .cd1{
-
-}
-.cn4 .cd2{
-    
-}
-.cn4 .cd3{
-    
-}
-.cn5 .cd1{
-
-}
-.cn5 .cd2{
-    
-}
-.cn5 .cd3{
-    
-}
-.cn6 .cd1{
-
-}
-.cn6 .cd2{
-    
-}
-.cn6 .cd3{
-    
+.cn6 > .card__middle{
+    width:150px;
+    height: 50px;
 }
