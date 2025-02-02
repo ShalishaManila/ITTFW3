@@ -91,12 +91,15 @@ body{
 }
 
 .part2{
+    background-color: coral;
     display: flex;
+    align-items: center;
     max-width: 75%;
     flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
-    gap: 10px;
-    margin: 10px;
+    gap: 10px; 
+    justify-self: center;
+    justify-content: center;
 }
 .part2 > .container{
     background-color: black;
@@ -104,11 +107,11 @@ body{
     border-radius: 10px;
     width: 30%;
     min-height: 150px;
-    padding: 10px;
-    background-color: black;
     display: flex;
     flex-wrap:wrap;
     gap:5px;
+    margin:10px;
+    padding: 10px;
 }
 .circle{
     width: 50px;
@@ -116,12 +119,22 @@ body{
     border-radius: 100%;
     background-color: gray;
 }
-.cn7{
+.part2 > .cn7{
     flex-direction: row-reverse;
 }
-.cn11{
-    flex-direction: row-reverse;
+.part2 > .cn8{
+    background-color: chocolate;
+    align-items: center;
+    justify-content: space-between;
 }
-.cn9{
-    
+.part2 > .cn9{
+    justify-content: flex-end;
+}
+.part2 > .cn10{
+    background-color: chocolate;
+    justify-content: center;
+    align-content: center;
+}
+.part2 > .cn11{
+    justify-content: space-evenly;
 }
