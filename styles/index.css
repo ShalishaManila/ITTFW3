@@ -66,6 +66,9 @@ body{
     align-content: center;
     text-align: center;
 }
+.cardtext{
+    display: flex;
+}
 .cn2 > .card{
     height: 150px;
     width: 50px;
