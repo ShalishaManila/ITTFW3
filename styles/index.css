@@ -79,12 +79,10 @@ body{
     background-color: coral;
     display: flex;
     align-items: center;
-    max-width: 50%;
-    flex-wrap: wrap-reverse;
-    flex-direction: row-reverse;
+    max-width: 70%;
+    flex-wrap: wrap;
     gap: 10px; 
     justify-self: center;
-    justify-content: center;
     margin:10px;
     padding: 10px;
 }
@@ -92,8 +90,8 @@ body{
     background-color: black;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
-    max-width: 215px;
-    max-height: 150px;
+    width: 200px;
+    height: 175px;
     display: flex;
     flex-wrap:wrap;
     gap:5px;
@@ -106,22 +104,21 @@ body{
     border-radius: 100%;
     background-color: gray;
 }
-.part2 > .cn7{
-    flex-direction: row-reverse;
-}
 .part2 > .cn8{
     background-color: chocolate;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
 }
 .part2 > .cn9{
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .part2 > .cn10{
     background-color: chocolate;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
+    align-content: space-around;
 }
 .part2 > .cn11{
-    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
 }
