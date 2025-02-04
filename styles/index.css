@@ -24,10 +24,10 @@ body{
 }
 .cn2{
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 .cn3{
-    align-items: flex-end;
+    align-items: center;
     justify-content: right;
 }
 .cn4{
@@ -35,9 +35,8 @@ body{
     justify-content: space-between;
 }
 .cn5{
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
-    
 }
 .cn6{
     justify-content: space-around;
@@ -48,21 +47,14 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     margin: 5px;
-    height: 50px;
     width: 50px;
+    height: 50px;
     align-content: center;
     text-align: center;
-}
-.cardtext{
-    display: flex;
 }
 .cn2 > .card{
     height: 150px;
     width: 50px;
-}
-
-.cn4 > .card__middle{
-    align-self: center;
 }
 .cn4 > .card__right{
     align-self: flex-end;
@@ -70,14 +62,16 @@ body{
 .cn5 > .card__left{
     height: 150px;
     width: 50px;
-
 }
 .cn5 > .card__right{
     height: 150px;
     width: 50px;
 }
+.cardtext{
+    display: flex;
+}
 .cn6 > .card__middle{
-    width:150px;
+    flex-grow: 1;
     height: 50px;
 }
 
